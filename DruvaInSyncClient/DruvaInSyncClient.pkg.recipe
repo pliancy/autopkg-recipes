@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of inSyncClient and creates a package.</string>
+	<string>Downloads the latest version of Druva inSyncClient and creates a package.</string>
 	<key>Identifier</key>
 	<string>com.github.pliancy.pkg.DruvaInSyncClient</string>
 	<key>Input</key>
