@@ -5,18 +5,18 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Druva inSyncClient and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.pliancy.pkg.DruvaInSyncClient</string>
+	<string>com.github.pliancy.pkg.inSyncClient</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
 		<string>Druva inSync</string>
 		<key>NAME</key>
-		<string>DruvaInSyncClient</string>
+		<string>inSyncClient</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.pliancy.download.DruvaInSyncClient</string>
+	<string>com.github.pliancy.download.inSyncClient</string>
 	<key>Process</key>
 	<array>
 		<dict>

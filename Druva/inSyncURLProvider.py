@@ -19,10 +19,10 @@ import json
 
 from autopkglib import URLGetter
 
-__all__ = ["DruvaInsyncURLProvider"]
+__all__ = ["insyncURLProvider"]
 
 
-class DruvaInsyncURLProvider(URLGetter):
+class insyncURLProvider(URLGetter):
     """Provides the URL for the latest Druva Insync Downlaod."""
 
     description = __doc__
@@ -49,5 +49,5 @@ class DruvaInsyncURLProvider(URLGetter):
 
 
 if __name__ == "__main__":
-    processor = DruvaInsyncURLProvider()
+    processor = insyncURLProvider()
     processor.execute_shell()
